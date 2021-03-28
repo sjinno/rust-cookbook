@@ -1,0 +1,84 @@
+# std:
+
+- [ ] iter::Iterator
+- [ ] ops::Add
+- [ ] cmp::Ord
+- [ ] cmp::PartialOrd
+- [ ] cmp::Eq
+- [ ] cmp::PartialEq
+- [ ] marker::Copy
+- [ ] clone::Clone
+- [ ] fmt::Debug
+- [ ] fmt::Display
+- [ ] io::Read
+- [ ] io::Write
+- [ ] io::BufRead
+- [ ] io::BufReader
+- [ ] io::Stdin
+- [ ] io::Stdout
+- [ ] rc::Rc
+- [ ] sync::Arc
+- [ ] cell::Cell
+- [ ] cell::RefCell
+- [ ] borrow::Cow
+- [ ] fs::File
+- [ ] path::PathBuf
+- [ ] time
+- [ ] thread
+- [ ] convert::Into
+- [ ] convert::From
+- [ ] convert::TryFrom
+- [ ] convert::TryInto
+- [ ] ops::Drop
+- [ ] default::Default
+- [ ] net::TcpStream
+- [ ] net::TcpListener
+- [ ] io::Result
+- [ ] env
+- [ ] sync::mpsc
+- [ ] mem
+- [ ] process
+- [ ] collections::BTreeMap
+- [ ] collections::BTreeSet
+- [x] matches
+
+
+# Keywords:
+
+- [ ] move
+- [ ] ref
+- [ ] 
+
+# Crates:
+
+- [ ] termion
+- [ ] itertools
+- [ ] image
+- [ ] glium
+- [ ] form_urlencoded
+- [ ] serde
+- [ ] failure
+- [ ] gtk
+- [ ] num
+- [ ] rand
+- [ ] criterion
+- [ ] chrono
+- [ ] rodio
+- [ ] envy
+- [ ] ggez
+- [ ] bevy
+- [ ] nalgebra
+- [ ] scraper
+- [ ] reqwest
+- [ ] opencv
+
+
+# Topics:
+
+- [ ] Generics
+- [ ] Traits
+- [ ] Enums
+- [ ] Error handling
+- [ ] Type aliases
+- [ ] Benchmarking
+- [ ] Macros
