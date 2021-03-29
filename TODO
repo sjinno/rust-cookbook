@@ -55,7 +55,7 @@
 - [△] itertools
 - [ ] image
 - [ ] glium
-- [ ] form_urlencoded
+- [△] form_urlencoded
 - [ ] serde
 - [ ] failure
 - [ ] gtk
