@@ -1,6 +1,6 @@
 # std:
 
-- [ ] iter::Iterator
+- [△] iter::Iterator
 - [ ] ops::Add
 - [ ] cmp::Ord
 - [ ] cmp::PartialOrd
@@ -8,8 +8,8 @@
 - [ ] cmp::PartialEq
 - [ ] marker::Copy
 - [ ] clone::Clone
-- [ ] fmt::Debug
-- [ ] fmt::Display
+- [△] fmt::Debug
+- [x] fmt::Display
 - [ ] io::Read
 - [ ] io::Write
 - [ ] io::BufRead
@@ -52,7 +52,7 @@
 # Crates:
 
 - [ ] termion
-- [ ] itertools
+- [△] itertools
 - [ ] image
 - [ ] glium
 - [ ] form_urlencoded
