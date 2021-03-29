@@ -1,5 +1,8 @@
 use std::fmt::{self, Write};
 
+use strum::IntoEnumIterator;
+use strum_macros::EnumIter;
+
 struct Toast(String);
 
 impl fmt::Display for Toast {
@@ -8,6 +11,7 @@ impl fmt::Display for Toast {
     }
 }
 
+#[derive(EnumIter)]
 enum Shape {
     Circle,
     Diamond,
@@ -32,12 +36,5 @@ fn main() {
     let t = Toast("Avocado toast".to_string());
     println!("{}", t);
 
-    let shapes: &[Shape; 5] = &[
-        Shape::Circle,
-        Shape::Diamond,
-        Shape::Square,
-        Shape::Star,
-        Shape::Triangle,
-    ];
-    shapes.iter().for_each(|s| println!("{}", s));
+    Shape::iter().for_each(|s| println!("{}", s));
 }
