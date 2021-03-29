@@ -1,5 +1,6 @@
-use std::fmt::{self, Write};
+use std::fmt;
 
+use colored::Colorize;
 use strum::IntoEnumIterator;
 use strum_macros::EnumIter;
 
@@ -23,11 +24,11 @@ enum Shape {
 impl fmt::Display for Shape {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         match self {
-            Shape::Circle => f.write_char('●'),
-            Shape::Diamond => f.write_char('◆'),
-            Shape::Square => f.write_char('■'),
-            Shape::Star => f.write_char('★'),
-            Shape::Triangle => f.write_char('▲'),
+            Shape::Circle => write!(f, "{}", "●".red()),
+            Shape::Diamond => write!(f, "{}", "◆".green()),
+            Shape::Square => write!(f, "{}", "■".cyan()),
+            Shape::Star => write!(f, "{}", "★".yellow()),
+            Shape::Triangle => write!(f, "{}", "▲".magenta()),
         }
     }
 }
