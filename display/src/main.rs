@@ -27,7 +27,7 @@ impl fmt::Display for Shape {
             Shape::Circle => write!(f, "{}", "●".red()),
             Shape::Diamond => write!(f, "{}", "◆".green()),
             Shape::Square => write!(f, "{}", "■".cyan()),
-            Shape::Star => write!(f, "{}", "★".yellow()),
+            Shape::Star => write!(f, "{}", "★".yellow().blink()),
             Shape::Triangle => write!(f, "{}", "▲".magenta()),
         }
     }
